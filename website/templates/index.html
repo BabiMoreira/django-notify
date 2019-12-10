@@ -1,0 +1,132 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Hind|Pacifico&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="{% static 'style.css' %}">
+    <title>Notify</title>
+</head>
+
+<body>
+    <!-- CABEÇALHO-->
+    <header>
+        <nav class="linha"></nav>
+        <div class="banner">
+            <h1 class="titulo">Notify<span>.</span></h1>
+            <div class="texto">
+                <p> A great new free psd theme to showcase<br> your new application.</p>
+            </div>
+            <div class="icon">
+                <div><a href=""><img src="{% static 'imagens/icone-ios.png' %}" alt="icone ios"></a></div>
+                <div><a href=""><img src="{% static 'imagens/icone-android.png' %}" alt="icone android"></a></div>
+                <div><a href=""><img src="{% static 'imagens/icone-windows.png' %}" alt="icone windows"></a></div>
+            </div>
+        </div>
+        <div><img src="{% static 'imagens/hand.png' %}" alt="mão" class="hand"></div>
+    </header>
+
+    <!-- SECTION ICONES-->
+
+    <section class="boxes">
+        <div class="box">
+            <img class="icone2" src="{% static 'imagens/icone1.png' %}" alt="">
+            <h2> Editable Theme</h2>
+            <p class="texto2"> Lorem ipsum dolor sit amnet, consectetur<br />
+                adipiscing elit. Suspendisse fragilla fragilla.</p>
+        </div>
+        <div class="box">
+            <img class="icone2" src="{% static 'imagens/icone2.png' %}" alt="">
+            <h2> Flat Design </h2>
+            <p class="texto2"> Lorem ipsum dolor sit amnet, consectetur<br />
+                adipiscing elit. Suspendisse fragilla fragilla.</p>
+        </div>
+        <div class="box">
+            <img class="icone2" src="{% static 'imagens/icone3.png' %}" alt="">
+            <h2> Reach Your Audience</h2>
+            <p class="texto2"> Lorem ipsum dolor sit amnet, consectetur<br />
+                adipiscing elit. Suspendisse fragilla fragilla.</p>
+        </div>
+    </section>
+
+    <!--SECTION VIDEO-->
+
+    <section class="fundobox2 grid">
+        <div class="box2">
+            <h2>Get Notified Of Any Updates!</h2>
+            <p class="texto2">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse <br />
+                fringilla fringilla nisl conge congue. Maecenas nec condimentum libero, at <br />
+                elementum mauris. Phasellus eget nsi dapibus, ultrices nisl at, hendreri<br />
+                risisuis ornare luctus id sollicitudin ante lobortis at.<br />
+            </p>
+            <div class="botao">
+                <input class="notify" type="text" placeholder="Email Address">
+                <input class="address" type="button" value="Notify">
+            </div>
+        </div>
+        <div>
+            <iframe class="video" src="https://player.vimeo.com/video/18929176" width="500" height="300" frameborder="0"
+                allow="autoplay; fullscreen" allowfullscreen></iframe>
+        </div>
+
+
+    </section>
+
+    <!--SECTION FOTOS-->
+    <section class="boxe3">
+        <div class="box3">
+            <p class="texto3"> "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris interum velit vitae
+                nulla molestie eu<br />
+                commodo nulla dapib us. Donec id sollicitudin urna. Integer at dui ac leo fermentum varius eleifend ut"
+            </p>
+            <h4> Janet Hunt </h4>
+        </div>
+        <div>
+            <a href="#"><img src="{% static 'imagens/pessoa1.jpg' %}" alt=""></a>
+            <a href="#"><img src="{% static 'imagens/pessoa1.jpg' %}" alt=""></a>
+            <a href="#"><img src="{% static 'imagens/pessoa1.jpg' %}" alt=""></a>
+            <a href="#"><img src="{% static 'imagens/pessoa1.jpg' %}" alt=""></a>
+            <a href="#"><img src="{% static 'imagens/pessoa1.jpg' %}" alt=""></a>
+            <a href="#"><img src="{% static 'imagens/pessoa1.jpg' %}" alt=""></a>
+            <a href="#"><img src="{% static 'imagens/pessoa1.jpg' %}" alt=""></a>
+            <a href="#"><img src="{% static 'imagens/pessoa1.jpg' %}" alt=""></a>
+            <a href="#"><img src="{% static 'imagens/pessoa1.jpg' %}" alt=""></a>
+            <a href="#"><img src="{% static 'imagens/pessoa1.jpg' %}" alt=""></a>
+            <a href="#"><img src="{% static 'imagens/pessoa1.jpg' %}" alt=""></a>
+            <a href="#"><img src="{% static 'imagens/pessoa1.jpg' %}" alt=""></a>
+            <a href="#"><img src="{% static 'imagens/pessoa1.jpg' %}" alt=""></a>
+            <a href="#"><img src="{% static 'imagens/pessoa1.jpg' %}" alt=""></a>
+            <a href="#"><img src="{% static 'imagens/pessoa1.jpg' %}" alt=""></a>
+
+
+        </div>
+        <h1> Say Hi & Get in Touch </h1>
+        <p class="texto2"> Lorem ipsum dolor sit amet, consectetur adipisicing elit suspendisse. </p>
+        <div>
+            <a href="#"><img class="rede" src="{% static 'imagens/icone twitter.png' %}" alt="Twitter"></a>
+            <a href="#"><img class="rede" src="{% static 'imagens/icone facebook.png'' %}" alt="facebook"></a>
+            <a href="#"><img class="rede" src="{% static 'imagens/icone pinterest.png' %}" alt="Pinterest"></a>
+            <a href="#"><img class="rede" src="{% static 'imagens/icone google.png' %}" alt="Google"></a>
+            <a href="#"><img class="rede" src="{% static 'imagens/icone linkedin.png' %}" alt="Linkedin"></a>
+            <a href="#"><img class="rede" src="{% static 'imagens/icone youtube.png' %}" alt="Youtube"></a>
+        </div>
+    </section>
+
+    <!--RODAPÉ-->
+    <footer>
+        <nav class="contato">
+            <a href="#"> Contact</a>
+            <a href="#"> Dowload</a>
+            <a href="#"> Press </a>
+            <a href="#"> Email </a>
+            <a href="#"> Support </a>
+            <a href="#"> Privacy Policy </a>
+        </nav>
+    </footer>
+
+
+</body>
